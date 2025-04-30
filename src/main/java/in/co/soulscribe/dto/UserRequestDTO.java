@@ -1,6 +1,8 @@
 package in.co.soulscribe.dto;
 
-public class UserOutputDTO {
-    private Long id;
+import lombok.Data;
+
+@Data
+public class UserRequestDTO {
     private String name;
 }
